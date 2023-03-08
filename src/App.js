@@ -1,15 +1,18 @@
 
 import './App.css';
-import About from './components/About';
+
 import React from 'react';
-import Service from './components/Service';
+import Vari from './components/Vari';
+
+
 
 
 function App() {
   return (
     <>
-    <About/>
-    <Service/>
+   <div className="flex justify-center">
+      <Vari />
+    </div>
    
     </>
    
